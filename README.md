@@ -7,7 +7,8 @@ Este programa simula una carrera de autos utilizando hebras en C++. Cada auto co
 Para compilar el programa, ejecuta el siguiente comando:
 
 
-g++ tarea1.cpp -o tarea1
+```bash
+make
 
 
 ## Ejecución
@@ -21,3 +22,11 @@ Ejemplo:
 
 
 ./tarea1 100 3
+
+## Limpieza
+Para eliminar los archivos generados por la compilación:
+
+
+make clean
+```
+```
